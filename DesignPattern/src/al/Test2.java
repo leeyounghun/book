@@ -50,8 +50,8 @@ public class Test2 {
 				System.out.println(indexCnt[i]);
 			}
 
-			System.out.println("ind" + maxIndex);
-			System.out.println("size" + maxSize);
+			System.out.println("ind : " + maxIndex);
+			System.out.println("size : " + maxSize);
 			System.out.print(new StringBuffer(chars.substring(maxIndex, maxIndex + maxSize +1)).reverse().toString());
 		}else{
 			System.out.println("invalid arg only alpah accepted");
