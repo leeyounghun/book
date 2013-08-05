@@ -23,7 +23,6 @@ public class SymbolGraph {
 			}
 		}
 
-
 		keys = new String[st.size()];
 
 		for (String name : st.keySet()) {
@@ -40,7 +39,6 @@ public class SymbolGraph {
 				G.addEdge(v, st.get(a[i]));
 			}
 		}
-
 	}
 
 	public boolean contains(String s) {
