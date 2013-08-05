@@ -1,4 +1,4 @@
-package al.graph.undirectedGraph;
+package al.graph.undirectedGraph.Graph;
 
 import al.util.Bag;
 import edu.princeton.cs.introcs.In;
@@ -28,7 +28,7 @@ public class Graph {
 		}
 	}
 
-	private void addEdge(int v, int w) {
+	public void addEdge(int v, int w) {
 		adj[v].add(w);
 		adj[w].add(v);
 		E++;

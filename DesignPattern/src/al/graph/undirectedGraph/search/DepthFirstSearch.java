@@ -1,7 +1,7 @@
 package al.graph.undirectedGraph.search;
 
 
-import al.graph.undirectedGraph.Graph;
+import al.graph.undirectedGraph.Graph.Graph;
 import al.util.Stack;
 
 public class DepthFirstSearch {
